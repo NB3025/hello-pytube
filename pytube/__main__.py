@@ -12,7 +12,7 @@ from typing import Any, Callable, Dict, List, Optional
 import pytube
 
 from pytube import extract, request
-
+from pytube import Stream
 
 
 
