@@ -15,7 +15,7 @@ from pytube import extract, request
 from pytube import Stream
 
 
-
+from pytube.metadata import YouTubeMetadata
 
 
 logger = logging.getLogger(__name__)
@@ -65,7 +65,7 @@ class YouTube:
         self._fmt_streams: Optional[List[Stream]] = None
 
         self._initial_data = None
-        self._metadata: Optional[YouTubueMetadata] = None
+        self._metadata: Optional[YouTubeMetadata] = None
 
         # video_id part of /watch?v=<video_id>
         self.video_id = extract.video_id(url)
