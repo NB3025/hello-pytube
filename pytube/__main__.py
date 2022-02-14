@@ -13,10 +13,10 @@ import pytube
 
 from pytube import extract, request
 from pytube import Stream
-
+from pytube.helpers import install_proxy
 
 from pytube.metadata import YouTubeMetadata
-
+from pytube.monostate import Monostate
 
 logger = logging.getLogger(__name__)
 
