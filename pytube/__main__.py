@@ -10,7 +10,7 @@ import logging
 from typing import Any, Callable, Dict, List, Optional
 
 import pytube
-
+import pytube.exceptions as exceptions
 from pytube import extract, request
 from pytube import Stream
 from pytube.helpers import install_proxy
