@@ -14,7 +14,7 @@ from urllib.error import HTTPError
 from urllib.parse import parse_qs
 
 from pytube import extract, request
-from pytube.helpers import 
+from pytube.helpers import safe_filename, target_directory
 from pytube.itags import 
 from pytube.monostate import
 
