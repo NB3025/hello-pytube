@@ -1,7 +1,3 @@
-from typing import Any, Callable, Dict, List, Optional
+from pytube import YouTube
 
-a : List[int] = ['a']
-
-print(a)
-print(type(a))
-print (type(a[0]))
+YouTube('https://youtu.be/2lAe1cqCOXo').streams.first().download()
